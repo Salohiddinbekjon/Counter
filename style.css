@@ -6,28 +6,58 @@ div {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    /* height: 100vh; */
     gap: 40px;
+    margin-bottom: 0px;
+    margin-top: 250px;
 }
 
 .plus {
     width: 150px;
     height: 150px;
-    font-size: 140px;
-    background-color: rgb(4, 255, 104);
+    font-size: 120px;
+    background-color: rgb(4, 248, 61);
+    color: white;
     border: 0px solid;
+}
+
+.plus:hover {
+    background-color: white;
+    color: rgb(4, 255, 104);
 }
 
 .minus {
     width: 150px;
     height: 150px;
-    font-size: 50px;
-    background-color: red;
+    font-size: 100px;
+    background-color: black;
     border: 0px solid;
-    color: white;
+    color: yellow;
+}
+
+.minus:hover {
+    background-color: white;
+    color: red;
 }
 
 span {
     font-size: 140px;
     color: white;
+}
+
+.res {
+    width: 450px;
+    height: 100px;
+    font-size: 36px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 5px;
+    background-color: red;
+    color: black;
+    border: 0px solid;
+}
+
+.res:hover {
+    background-color: aliceblue;
+    color: red;
 }
